@@ -9,7 +9,7 @@
         <input v-model="password" type="password" placeholder="Password" required
                class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-primary-500"/>
         <button type="submit"
-                class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 cursor-pointer">
           Log In
         </button>
       </form>

@@ -35,7 +35,7 @@ class DonationController extends Controller
                 'quantity' => 1,
             ]],
             'mode' => 'payment',
-            'success_url' => config('app.frontend_url') . '/success?session_id={CHECKOUT_SESSION_ID}',
+            'success_url' => config('app.frontend_url') . '/success?session_id={CHECKOUT_SESSION_ID}&campaign_id=' . $campaign->id,
             'cancel_url' => config('app.frontend_url') . '/cancel',
             'metadata' => [
                 'campaign_id' => (string)$campaign->id,
