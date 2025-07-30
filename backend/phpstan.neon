@@ -1,0 +1,15 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - config/
+        - database/
+        - routes/
+    level: 8
+    ignoreErrors:
+        - '#Parameter .* of function explode expects string, bool\|string given#'
+        - '#Parameter .* of function parse_url expects string, string\|true given#'
+
+
