@@ -1,6 +1,6 @@
 # 📦 Full Stack Laravel + Vite App
 
-This project is a full stack web application built with **Laravel** as the backend and **Vite + Vue.js/React** as the frontend. It includes database migrations, seeders, unit/static analysis testing, and hot-reloading development setup.
+This project is a full stack web application built with **Laravel 12** as the backend and **Vite + Vue3** as the frontend. It includes database migrations, seeders, unit/static analysis testing, and hot-reloading development setup.
 
 ---
 
